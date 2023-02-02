@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		81612739298C18D900BEA301 /* CarTradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81612738298C18D900BEA301 /* CarTradingCardsApp.swift */; };
-		8161273B298C18D900BEA301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8161273A298C18D900BEA301 /* ContentView.swift */; };
 		8161273D298C18DA00BEA301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8161273C298C18DA00BEA301 /* Assets.xcassets */; };
 		81612740298C18DA00BEA301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8161273F298C18DA00BEA301 /* Preview Assets.xcassets */; };
+		81612749298C1C0600BEA301 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81612748298C1C0600BEA301 /* CarDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81612735298C18D900BEA301 /* CarTradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarTradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81612738298C18D900BEA301 /* CarTradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTradingCardsApp.swift; sourceTree = "<group>"; };
-		8161273A298C18D900BEA301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8161273C298C18DA00BEA301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8161273F298C18DA00BEA301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81612748298C1C0600BEA301 /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				81612738298C18D900BEA301 /* CarTradingCardsApp.swift */,
-				8161273A298C18D900BEA301 /* ContentView.swift */,
+				81612747298C1BB400BEA301 /* Model */,
+				81612746298C1BA000BEA301 /* Views */,
 				8161273C298C18DA00BEA301 /* Assets.xcassets */,
 				8161273E298C18DA00BEA301 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				8161273F298C18DA00BEA301 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81612746298C1BA000BEA301 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81612748298C1C0600BEA301 /* CarDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81612747298C1BB400BEA301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8161273B298C18D900BEA301 /* ContentView.swift in Sources */,
+				81612749298C1C0600BEA301 /* CarDetailView.swift in Sources */,
 				81612739298C18D900BEA301 /* CarTradingCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
