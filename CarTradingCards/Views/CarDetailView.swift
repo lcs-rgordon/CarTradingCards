@@ -18,7 +18,7 @@ struct CarDetailView: View {
             Image("porsche")
                 .resizable()
                 .scaledToFit()
-
+            
             HStack {
                 Text("HP")
                 
@@ -27,7 +27,7 @@ struct CarDetailView: View {
                 Text("120")
             }
             .padding(.horizontal)
-
+            
             HStack {
                 Text("Weight")
                 
@@ -36,7 +36,38 @@ struct CarDetailView: View {
                 Text("1 tonne")
             }
             .padding(.horizontal)
+            
+            Group {
+            
+                HStack {
+                    Text("Original Cost")
+                    
+                    Spacer()
+                    
+                    Text("$13,500")
+                }
+                .padding(.horizontal)
 
+                HStack {
+                    Text("Original Cost")
+                    
+                    Spacer()
+                    
+                    Text("$13,500")
+                }
+                .padding(.horizontal)
+                
+                HStack {
+                    Text("Original Cost")
+                    
+                    Spacer()
+                    
+                    Text("$13,500")
+                }
+                .padding(.horizontal)
+
+            }
+                        
             HStack {
                 Text("Original Cost")
                 
@@ -45,11 +76,28 @@ struct CarDetailView: View {
                 Text("$13,500")
             }
             .padding(.horizontal)
-
+            
+            HStack {
+                Text("Original Cost")
+                
+                Spacer()
+                
+                Text("$13,500")
+            }
+            .padding(.horizontal)
+            
+            HStack {
+                Text("Original Cost")
+                
+                Spacer()
+                
+                Text("$13,500")
+            }
+            .padding(.horizontal)
             
             Spacer()
             
-
+            
         }
     }
 }
