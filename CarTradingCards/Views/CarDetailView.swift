@@ -11,7 +11,7 @@ struct CarDetailView: View {
     var body: some View {
         Image("porsche")
             .resizable()
-            .scaledToFit()ç
+            .scaledToFit()
     }
 }
 
